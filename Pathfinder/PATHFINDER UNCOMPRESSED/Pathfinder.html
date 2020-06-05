@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Pathfinder</title>
+<head/>
+<body>
+  <link rel='stylesheet' href='Pathfinder.css'>
+  <header>
+    <hr class='title'>
+    <div id='header'><center><div class='cont2'><div class='bulb'></div><div class='heading'>PATHFINDING VISUALISER</div><div class='bulb'></div></div></center>
+    <hr class='title'>
+  <div class='container'>
+    <div class="dropdown">
+    <button onclick="drop()" class="dropbtn">Select Algorithm</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a>Dijkstra Algorithm(Default)</a>
+      <a onclick="temp()">A* Algorithm</a>
+    </div>
+  </div>
+  <button id='cls' type='button' onclick="slateClean()">Clear Board</button>
+  <button id='rnd' type='button' onclick="crtWall()">Create Maze</button>
+</div>
+<hr class='nav'>
+<center><button id='btn' type='button' onclick="execute()" disabled='true'>START</button></center>
+<hr class='nav'><div id='variable'><center>
+  Welcome,Please set the start node(or Click Create Maze).
+</center>
+</div><hr class='nav'>
+<div class='cont3'>
+  <div class='cont3' style="margin:10px;">Unvisited <div class='unvisited' style="height:5px;width:5px;margin:5px;"></div></div>
+  <div class='cont3' style="margin:10px;">Start Node<div class='startNode' style="height:5px;width:5px;margin:5px;"></div></div>
+  <div class='cont3' style="margin:10px;">End Node <div class='endNode' style="height:5px;width:5px;margin:5px;"></div></div>
+  <div class='cont3' style="margin:10px;">Wall <div class='wall' style="height:5px;width:5px;margin:5px;"></div></div>
+  <div class='cont3' style="margin:10px;">Visiting <div class='pointer' style="height:5px;width:5px;margin:5px;"></div></div>
+  <div class='cont3' style="margin:10px;">Visited Nodes <div class='visited' style="height:5px;width:5px;margin:5px;"></div></div>
+</div>
+</header>
+<script src="Pathfinder.js">
+</script>
+</body>
+</html>
