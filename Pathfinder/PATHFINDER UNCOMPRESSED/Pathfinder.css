@@ -260,9 +260,9 @@ button[disabled]{
 .path{
   height:20px;
   width:auto;
-  background-color:#110F0F;
+  background-color:green;
   border-style:solid;
-  border-color:green;
+  border-color:yellow;
   border-width:1px;
   padding:10px;
   opacity:0;
