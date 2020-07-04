@@ -142,7 +142,7 @@ if (!event.target.matches('.dropbtn')) {
 
 function temp() {
 algo='d';
-document.getElementById("variable").innerHTML = '<center>You are using A Star Pathfinding Algorithm</center>';
+document.getElementById("variable").innerHTML = '<center>You are using Dijkstra Pathfinding Algorithm</center>';
 }
 
 
