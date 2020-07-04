@@ -11,7 +11,7 @@ var p=[];
 var visitedgraph=[];
 var g=[];
 var z=0;
-var algo='d';
+var algo='a';
 
 
 
@@ -98,7 +98,7 @@ function slateClean(){
   listID=[];
   graph=[];
   visitedgraph=[];
-  algo='d';
+  algo='a';
   document.getElementById("variable").innerHTML = '<center>Here we go again...</center>';
   for (i=0;i<ClistID.length;i++){
     document.getElementById(ClistID[i][0]+'-'+ClistID[i][1]).className='unvisited';
@@ -141,7 +141,7 @@ if (!event.target.matches('.dropbtn')) {
 }
 
 function temp() {
-algo='a';
+algo='d';
 document.getElementById("variable").innerHTML = '<center>You are using A Star Pathfinding Algorithm</center>';
 }
 
