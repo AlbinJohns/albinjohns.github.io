@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>Thank You - Albin Johns</title>
+        
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #1f1f1b; /* Adjust to match your index.html background color */
+                color: #333;
+                text-align: center;
+            }
+
+            .thank-you-container {
+                max-width: 600px;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.678); /* Semi-transparent white */
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(255, 85, 0, 0.765);
+            }
+
+            .thank-you-title {
+                font-size: 2rem;
+                margin-bottom: 20px;
+                color: #FF6F61; /* Persimmon Orange */
+            }
+
+            .thank-you-message {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .return-home-button {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 1rem;
+                color: white;
+                background-color: #FF6F61; /* Persimmon Orange */
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+                transition: background-color 0.3s, color 0.3s;
+            }
+
+            .return-home-button:hover {
+                background-color: #E65C50; /* Darker Persimmon Orange */
+            }
+
+            @media (max-width: 768px) {
+                .thank-you-title {
+                    font-size: 1.5rem;
+                }
+
+                .thank-you-message {
+                    font-size: 1rem;
+                }
+
+                .return-home-button {
+                    font-size: 0.9rem;
+                    padding: 8px 16px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .thank-you-title {
+                    font-size: 1.2rem;
+                }
+
+                .thank-you-message {
+                    font-size: 0.9rem;
+                }
+
+                .return-home-button {
+                    font-size: 0.8rem;
+                    padding: 6px 12px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="thank-you-container">
+            <h1 class="thank-you-title">Thank You!</h1>
+            <p class="thank-you-message">Your submission has been received. I will reach back as soon as possible.</p>
+            <a href="index.html" class="return-home-button">Return Home</a>
+        </div>
+    </body>
+</html>
